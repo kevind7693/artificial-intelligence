@@ -43,7 +43,7 @@ p {
 }
 
 .bg-primary {
-    background-color: $theme-primary;
+    background-color: #337ab7;
 }
 
 .bg-dark {
@@ -70,7 +70,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: #40f0ed;
+    background-color: black;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -300,7 +300,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant(white, #337ab7, #337ab7);
 }
 
 .btn {
