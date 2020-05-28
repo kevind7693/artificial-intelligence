@@ -20,10 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    // color: white;
+    color: blue;
     &:hover,
     &:focus {
-        color: darken(white, 10%);
+        color: darken(blue, 10%);
     }
 }
 
